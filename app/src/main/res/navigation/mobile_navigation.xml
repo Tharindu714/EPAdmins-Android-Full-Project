@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_upload_Tvshows">
+
+    <fragment
+        android:id="@+id/nav_upload_Tvshows"
+        android:name="com.deltacodex.epadmins.ui.TvShows.Upload_Tvshows_Fragment"
+        android:label="@string/menu_Tvshows"
+        tools:layout="@layout/fragment_upload_tv_shows" />
+
+    <fragment
+        android:id="@+id/nav_update_Tvshows"
+        android:name="com.deltacodex.epadmins.ui.TvShows.Update_tv_shows_Fragment"
+        android:label="@string/Update_Tvshows"
+        tools:layout="@layout/fragment_update_tv_shows" />
+
+    <fragment
+        android:id="@+id/nav_upload_movies"
+        android:name="com.deltacodex.epadmins.ui.upload_movies.Upload_movies_Fragment"
+        android:label="@string/menu_movies"
+        tools:layout="@layout/fragment_upload_movies" />
+
+    <fragment
+        android:id="@+id/nav_update_movies"
+        android:name="com.deltacodex.epadmins.ui.upload_movies.Update_movies_Fragment"
+        android:label="@string/Update_movies"
+        tools:layout="@layout/fragment_update_movies" />
+
+    <fragment
+        android:id="@+id/nav_upload_games"
+        android:name="com.deltacodex.epadmins.ui.Games.Upload_games_Fragment"
+        android:label="@string/menu_games"
+        tools:layout="@layout/fragment_upload_games" />
+
+    <fragment
+        android:id="@+id/nav_update_games"
+        android:name="com.deltacodex.epadmins.ui.Games.Update_Games_Fragment"
+        android:label="@string/Update_games"
+        tools:layout="@layout/fragment_update_games" />
+
+    <fragment
+        android:id="@+id/nav_news_update"
+        android:name="com.deltacodex.epadmins.ui.NewsUpdates.NewsUpdateFragment"
+        android:label="@string/menu_news_update"
+        tools:layout="@layout/fragment_news_update" />
+
+    <fragment
+        android:id="@+id/nav_com"
+        android:name="com.deltacodex.epadmins.ui.Handle_Community.Handle_Com_Fragment"
+        android:label="@string/menu_community"
+        tools:layout="@layout/fragment_handle__com" />
+
+    <fragment
+        android:id="@+id/nav_promotional_Updates"
+        android:name="com.deltacodex.epadmins.ui.Promotion.PromotionalUpdatesFragment"
+        android:label="@string/menu_promotions"
+        tools:layout="@layout/fragment_promotional_updates" />
+
+    <fragment
+        android:id="@+id/nav_Block_user"
+        android:name="com.deltacodex.epadmins.ui.BlockUser.BlockUserFragment"
+        android:label="@string/menu_block_user"
+        tools:layout="@layout/fragment_block_user" />
+
+    <fragment
+        android:id="@+id/nav_Block_product"
+        android:name="com.deltacodex.epadmins.ui.BlockProduct.BlockProductFragment"
+        android:label="@string/menu_block_collection"
+        tools:layout="@layout/fragment_block_product" />
+
+    <fragment
+        android:id="@+id/nav_bug_report"
+        android:name="com.deltacodex.epadmins.ui.Crashlythics.Bug_report_Fragment"
+        android:label="@string/menu_bugReport"
+        tools:layout="@layout/fragment_bug_report" />
+</navigation>

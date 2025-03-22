@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="Approved">#000524</color>
+    <color name="Blocked">#2E0018</color>
+
+    <color name="tv_shows">#D72638</color>
+    <color name="Movies">#8E2DE2</color>
+    <color name="games">#1E1EEC</color>
+    <color name="purple_500">#9C27B0</color>
+
+
+</resources>

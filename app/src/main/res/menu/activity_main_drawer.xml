@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_upload_Tvshows"
+            android:icon="@drawable/icon_television"
+            android:title="@string/menu_Tvshows" />
+
+        <item
+            android:id="@+id/nav_update_Tvshows"
+            android:icon="@drawable/settings_24"
+            android:title="@string/Update_Tvshows" />
+
+        <item
+            android:id="@+id/nav_upload_movies"
+            android:icon="@drawable/movies_24"
+            android:title="@string/menu_movies" />
+
+        <item
+            android:id="@+id/nav_update_movies"
+            android:icon="@drawable/settings_24"
+            android:title="@string/Update_movies" />
+
+        <item
+            android:id="@+id/nav_upload_games"
+            android:icon="@drawable/icon_games"
+            android:title="@string/menu_games" />
+
+        <item
+            android:id="@+id/nav_update_games"
+            android:icon="@drawable/settings_24"
+            android:title="@string/Update_games" />
+
+        <item
+            android:id="@+id/nav_news_update"
+            android:icon="@drawable/globe_news"
+            android:title="@string/menu_news_update" />
+
+        <item
+            android:id="@+id/nav_com"
+            android:icon="@drawable/handle_com_24"
+            android:title="@string/menu_community" />
+
+        <item
+            android:id="@+id/nav_Block_user"
+            android:icon="@drawable/ic_user_block"
+            android:title="@string/menu_block_user" />
+
+        <item
+            android:id="@+id/nav_Block_product"
+            android:icon="@drawable/ic_collection_block"
+            android:title="@string/menu_block_collection" />
+
+        <item
+            android:id="@+id/nav_promotional_Updates"
+            android:icon="@drawable/promotional_24"
+            android:title="@string/menu_promotions" />
+
+        <item
+            android:id="@+id/nav_charts"
+            android:icon="@drawable/ic_chart"
+            android:title="@string/menu_chart" />
+
+        <item
+            android:id="@+id/nav_bug_report"
+            android:icon="@drawable/bug_report"
+            android:title="@string/menu_bugReport" />
+
+        <item
+            android:id="@+id/nav_SignUp"
+            android:icon="@drawable/signin_24"
+            android:title="@string/menu_SignUp" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_24"
+            android:title="@string/menu_Logout" />
+    </group>
+</menu>

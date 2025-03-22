@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">EP Admins</string>
+    <string name="head">Event Pulse</string>
+    <string name="slogan">Never Miss a Premiere</string>
+    <string name="admin">Admins</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Event Pulse Admin</string>
+    <string name="nav_header_subtitle">Never Miss a Premiere</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Go to Event Pulse</string>
+
+    <string name="menu_Tvshows">Register New Series</string>
+    <string name="menu_movies">Register New Movie</string>
+    <string name="menu_games">Register New Game</string>
+
+    <string name="Update_Tvshows">Update Tv shows</string>
+    <string name="Update_movies">Update Movies</string>
+    <string name="Update_games">Update Games</string>
+
+    <string name="menu_Logout">Logout</string>
+    <string name="menu_admin">Go to Event Pulse</string>
+    <string name="menu_SignUp">Register/Sign In</string>
+
+    <string name="SignupbtnText1">Register</string>
+    <string name="SignupbtnText2">Sign In</string>
+    <string name="hint1_signup">Please Enter Your Full Name</string>
+    <string name="hint2_signup">Please Enter Mobile Number Here</string>
+    <string name="hint3_signup">Please Enter Your Password Here</string>
+    <string name="hint4_signup">Please Enter Email Here</string>
+    <string name="SignupText1">Register Now</string>
+
+    <string name="Sign_inText">Sign In Here</string>
+    <string name="hint1_signin">Please Enter Your User Name</string>
+    <string name="hint2_signin">Please Enter Your Password</string>
+    <string name="signin_btn">Sign In</string>
+    <string name="signinbtn2">Create New</string>
+
+    <!-- TODO: Register New Tv Series -->
+    <string name="EPAdmins_Tv_header">Add a new Tv Series</string>
+    <string name="EPAdmins_Tv_desc">Type the Summery of the Plot Here</string>
+    <string name="EPAdmins_Tv_name">Name of the Series</string>
+    <string name="EPAdmins_Tv_imdb">IMDB Rating</string>
+    <string name="EPAdmins_Tv_RT">RT Rating</string>
+    <string name="EPAdmins_Tv_LovedUser">User Love</string>
+    <string name="EPAdmins_Tv_season_count">Season Count</string>
+    <string name="EPAdmins_Tv_episode_count">Episode Count</string>
+    <string name="EPAdmins_Tv_Creator">Enter Creator\'s Name</string>
+    <string name="EPAdmins_Tv_genere">Enter Genre of the Series</string>
+    <string name="EPAdmins_Tv_download_link">Torrent or Direct Link</string>
+    <string name="EPAdmins_Tv_Youtube_link">Youtube Link</string>
+    <string name="EPAdmin_btn">Submit Changes</string>
+    <string name="EPAdmins_Tv_thumb_img">Thumb URL</string>
+    <string name="EPAdmins_Tv_large_img">Single URL</string>
+
+    <!-- TODO: Register New Movie -->
+    <string name="EPAdmins_Movie_header">Add a new Movie</string>
+    <string name="EPAdmins_Movie_name">Name of the Movie</string>
+    <string name="EPAdmins_Movie_Duration">Duration</string>
+    <string name="EPAdmins_Movie_Distributed">Distributed By</string>
+    <string name="EPAdmins_Movie_genere">Enter Genre of the Movie</string>
+
+    <!-- TODO: Register New Game -->
+    <string name="EPAdmins_Game_header">Add a new Game</string>
+    <string name="EPAdmins_Game_name">Name of the Game</string>
+    <string name="EPAdmins_Game_Developer">Developer</string>
+    <string name="EPAdmins_Game_Platforms">Supporting Platforms</string>
+    <string name="EPAdmins_Game_genere">Enter Genre of the Game</string>
+    <string name="EPAdmins_Game_download_link">Steam Link</string>
+    <string name="EPAdmins_Game_release_date">Initial release date</string>
+    <string name="tv_show_name">Event Pulse</string>
+    <string name="imdb_8_5_default">IMDB: 8.5</string>
+    <string name="rotten_tomatoes_default">Rotten Tomatoes: 90%</string>
+    <string name="genre_default">Genre: Action, Horror</string>
+    <string name="update_card_default">Update</string>
+    <string name="save_btn_dialog">Save</string>
+    <string name="menu_news_update">News Update</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_promotions">Promotions</string>
+    <string name="menu_community">Handle Community</string>
+    <string name="menu_chart">View Charts</string>
+    <string name="menu_block_user">Handle User Status</string>
+    <string name="menu_block_collection">Handle Collection Status</string>
+    <string name="menu_bugReport">Crashlytics</string>
+    <string-array name="status_options">
+        <item>All</item>
+        <item>Approved</item>
+        <item>Blocked</item>
+    </string-array>
+
+</resources>
