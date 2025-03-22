@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/round_card"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtUserMobileDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorPrimaryFixed"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtUsergenderDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorPrimaryFixed"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtUserlocationDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorPrimaryFixed"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnBlockUnblock"
+        android:layout_width="109dp"
+        android:layout_height="51dp"
+        android:background="@null"
+        android:contentDescription="@string/EPAdmin_btn"
+        android:paddingTop="6dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_block_user"
+        tools:ignore="SpeakableTextPresentCheck" />
+</LinearLayout>

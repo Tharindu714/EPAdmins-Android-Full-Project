@@ -1,0 +1,58 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- LinearLayout to hold all content inside the ScrollView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Image URL Text Field -->
+        <EditText
+            android:id="@+id/imageUrlEditText"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:hint="Enter Image URL"
+            android:inputType="textUri" />
+
+        <!-- Image preview (this will be updated when the URL is entered) -->
+        <ImageView
+            android:id="@+id/newsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/premiere_wave_studio_inc" />
+
+        <!-- Headline Text Field -->
+        <EditText
+            android:id="@+id/headlineEditText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Headline" />
+
+        <!-- Description Text Field -->
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Full Description"
+            android:minHeight="150dp"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <!-- Upload Button -->
+        <Button
+            android:id="@+id/uploadNewsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4527A0"
+            android:text="Upload News"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>
+

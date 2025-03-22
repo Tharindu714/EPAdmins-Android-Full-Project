@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="12dp">
+
+        <!-- Thumbnail Image -->
+        <ImageView
+            android:id="@+id/image_movie"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/event_pulse_admin" />
+
+        <!-- Movie Name -->
+        <TextView
+            android:id="@+id/text_movie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/image_movie"
+            android:text="@string/tv_show_name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- IMDB Rating -->
+
+        <!-- Rotten Tomatoes Rating -->
+
+        <TextView
+            android:id="@+id/textm_imdb_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_movie_name"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/image_movie"
+            android:text="@string/imdb_8_5_default"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textm_rotten_tomatoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textm_imdb_rating"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/image_movie"
+            android:text="@string/rotten_tomatoes_default"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <!-- Genre -->
+        <TextView
+            android:id="@+id/textm_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textm_rotten_tomatoes"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/image_movie"
+            android:text="@string/genre_default"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp" />
+
+        <!-- Update Button -->
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

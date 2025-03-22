@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@color/Approved"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/mediaThumbnail"
+        android:layout_width="79dp"
+        android:layout_height="100dp"
+        android:scaleType="center"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mediaName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mediaExtraInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/btnBlockMovieUnblock"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@string/EPAdmin_btn"
+            android:paddingTop="6dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_block_user"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</LinearLayout>

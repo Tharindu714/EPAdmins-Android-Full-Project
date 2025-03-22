@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- PieChart for TV Shows, Movies, and Games -->
+        <TextView
+            android:id="@+id/Pie_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="Quick overview of the content distribution"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/Pie_TextView"
+            android:layout_alignParentTop="false" />
+
+        <!-- BarChart for Trailers, Bloopers, and Teasers -->
+
+        <TextView
+            android:id="@+id/Bar_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/pieChart"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="Diversity of additional content"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/Bar_TextView" >
+
+        </com.github.mikephil.charting.charts.BarChart>
+
+        <!-- LineChart for Active Users, Average Session Duration, Engagement Rate -->
+        <TextView
+            android:id="@+id/line_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/barChart"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="Active Users &amp; Engagement Rate"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/line_TextView"/>
+
+        <TextView
+            android:id="@+id/Dount_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lineChart"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="Tv shows Performance Across Genres"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/donutChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/Dount_TextView"/>
+
+        <TextView
+            android:id="@+id/Dount_TextView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/donutChart"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="Movie Performance Across Genres"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/donutChart2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/Dount_TextView2"/>
+
+        <TextView
+            android:id="@+id/Dount_TextView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/donutChart2"
+            android:background="@drawable/side_nav_bar"
+            android:padding="10dp"
+            android:text="Games Performance Across Genres"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/donutChart3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/Dount_TextView3"/>
+
+    </RelativeLayout>
+
+</ScrollView>

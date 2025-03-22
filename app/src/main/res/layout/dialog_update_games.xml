@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Game Cover Image -->
+    <ImageView
+        android:id="@+id/game_large_cover"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/premiere_wave_studio_inc" /> <!-- Replace with dynamic image -->
+
+    <!-- Game Title -->
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:text="Game Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Platform Input -->
+    <EditText
+        android:id="@+id/edit_platform"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter Platform"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <!-- Download Link Input -->
+    <EditText
+        android:id="@+id/edit_download_link"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter Download Link"
+        android:inputType="textUri"
+        android:padding="8dp" />
+
+    <!-- Trailer Link Input -->
+    <EditText
+        android:id="@+id/edit_trailer_link"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Enter Trailer Link"
+        android:inputType="textUri"
+        android:padding="8dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btn_update_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#6A1B9A"
+        android:text="Update Game"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

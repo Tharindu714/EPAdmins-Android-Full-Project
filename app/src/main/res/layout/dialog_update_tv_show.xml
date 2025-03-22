@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Thumbnail Image -->
+    <ImageView
+        android:id="@+id/img_thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/EPAdmins_Movie_header"
+        android:src="@drawable/event_pulse_admin" />
+
+    <!-- Name Field -->
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="@string/tv_show_name"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <!-- IMDB Rating Field -->
+    <EditText
+        android:id="@+id/edt_imdb_rating"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="@string/imdb_8_5_default"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill" />
+
+    <!-- Rotten Tomatoes Field -->
+    <EditText
+        android:id="@+id/edt_rotten_tomatoes"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="@string/rotten_tomatoes_default"
+        android:inputType="number"
+        tools:ignore="Autofill" />
+
+    <!-- Genre Field -->
+    <EditText
+        android:id="@+id/edt_genre"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="@string/genre_default"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edit_download_link"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:hint="@string/EPAdmins_Tv_download_link"
+        android:inputType="textUri"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edit_trailer_link"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:hint="@string/EPAdmins_Tv_Youtube_link"
+        android:inputType="textUri"
+        tools:ignore="Autofill" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5E35B1"
+        android:text="@string/save_btn_dialog"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>
